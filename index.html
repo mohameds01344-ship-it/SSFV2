@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+
+    <title>SSF — Super Strength Fit</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Announcement -->
+    <div class="announcement">
+        <span data-ar="قوة في كل حركة — اكتشف مجموعة SSF الجديدة"
+              data-en="STRENGTH IN EVERY MOVE — DISCOVER THE NEW SSF DROP">
+            قوة في كل حركة — اكتشف مجموعة SSF الجديدة
+        </span>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <a class="brand" href="index.html">
+            <span class="brand-mark">SSF</span>
+            <span class="brand-caption">SUPER STRENGTH FIT</span>
+        </a>
+
+        <nav class="main-nav">
+
+            <a href="#home" data-ar="الرئيسية" data-en="Home">
+                الرئيسية
+            </a>
+
+            <a href="#shop" data-ar="المتجر" data-en="Shop">
+                المتجر
+            </a>
+
+            <a href="#story" data-ar="عن SSF" data-en="Our Story">
+                عن SSF
+            </a>
+
+            <a href="#contact" data-ar="تواصل معنا" data-en="Contact">
+                تواصل معنا
+            </a>
+
+        </nav>
+        <div class="header-actions">
+
+    
+
+    <button class="lang-switch" id="languageToggle">
+        EN
+    </button>
+
+   
+
+</div>
+
+       
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+
+            <div class="hero-image"></div>
+            <div class="hero-shade"></div>
+
+            <div class="hero-content reveal">
+
+                <p class="eyebrow">
+                    <i></i>
+                    <span data-ar="مصمم للحركة. جاهز لكل تحدي."
+                          data-en="BUILT FOR MOVEMENT. READY FOR ANY CHALLENGE.">
+                        مصمم للحركة. جاهز لكل تحدي.
+                    </span>
+                </p>
+
+                <h1>
+                    <span data-ar="قوتك." data-en="YOUR">قوتك.</span>
+                    <br>
+                    <em data-ar="أسلوبك." data-en="STRENGTH.">أسلوبك.</em>
+                </h1>
+
+                <p class="hero-copy"
+                   data-ar="ملابس رياضية وستريت وير تجمع بين الراحة، الثقة، والتصميم الجريء."
+                   data-en="Performance-inspired essentials meet bold streetwear. Made for comfort, confidence and everyday movement.">
+
+                    ملابس رياضية وستريت وير تجمع بين الراحة، الثقة، والتصميم الجريء.
+
+                </p>
+
+                <a class="button button-light" href="#shop">
+
+                    <span data-ar="اكتشف المجموعة" data-en="EXPLORE THE COLLECTION">
+                        اكتشف المجموعة
+                    </span>
+
+                    <b>↗</b>
+
+                </a>
+
+            </div>
+
+            <div class="hero-index">
+                <span>01</span>
+                <span class="index-line"></span>
+                <span>SSF / 2026</span>
+            </div>
+
+            <div class="hero-vertical">
+                SUPER STRENGTH FIT — MOVE WITH PURPOSE
+            </div>
+
+        </section>
+
+
+        <!-- MOVING TEXT -->
+        <section class="ticker">
+
+            <div class="ticker-track">
+
+                <span>
+                    NO LIMITS • NO EXCUSES • JUST STRENGTH •
+                </span>
+
+                <span>
+                    NO LIMITS • NO EXCUSES • JUST STRENGTH •
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- COLLECTION -->
+        <section class="collection section-wrap" id="shop">
+
+            <div class="section-heading reveal">
+
+                <div>
+
+                    <p class="eyebrow">
+                        <i></i>
+                        <span data-ar="اختار ستايلك" data-en="THE SSF COLLECTION">
+                            اختار ستايلك
+                        </span>
+                    </p>
+
+                    <h2
+                        data-ar="المجموعة الأساسية<span>.</span>"
+                        data-en="THE CORE<br>COLLECTION<span>.</span>">
+
+                        المجموعة الأساسية<span>.</span>
+
+                    </h2>
+
+                </div>
+
+                <p
+                    data-ar="قطع أساسية بتفاصيل قوية وقصّات مريحة. اختار القطعة المناسبة ليومك."
+                    data-en="Essential pieces with confident details and relaxed fits. Find your everyday uniform.">
+
+                    قطع أساسية بتفاصيل قوية وقصّات مريحة. اختار القطعة المناسبة ليومك.
+
+                </p>
+
+            </div>
+
+
+            <div class="filter-row">
+
+                <span data-ar="كل المنتجات" data-en="ALL PRODUCTS">
+                    كل المنتجات
+                </span>
+
+                <span class="filter-line"></span>
+
+                <span id="productCount">
+                    04 PRODUCTS
+                </span>
+
+            </div>
+
+
+            <!-- Products generated from JavaScript -->
+            <div class="product-grid" id="productGrid"></div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="statement" id="story">
+
+            <div class="statement-photo"></div>
+
+            <div class="statement-copy reveal">
+
+                <p class="eyebrow">
+                    <i></i>
+                    <span data-ar="أكثر من مجرد ملابس" data-en="MORE THAN APPAREL">
+                        أكثر من مجرد ملابس
+                    </span>
+                </p>
+
+                <h2
+                    data-ar="اتحرك بثقة.<br><span>خليك أقوى.</span>"
+                    data-en="MOVE WITH<br><span>CONFIDENCE.</span>">
+
+                    اتحرك بثقة.
+                    <br>
+                    <span>خليك أقوى.</span>
+
+                </h2>
+
+                <p
+                    data-ar="SSF معمولة للناس اللي بتسعى كل يوم إنها تكون أفضل. تصميم عملي، خامات مريحة، وشكل يعبر عنك في التمرين وبره."
+                    data-en="SSF is made for people who show up and push forward every day. Functional design, comfortable fabrics and a look that moves with you.">
+
+                    SSF معمولة للناس اللي بتسعى كل يوم إنها تكون أفضل.
+                    تصميم عملي، خامات مريحة، وشكل يعبر عنك في التمرين وبره.
+
+                </p>
+
+                <a class="text-link" href="#shop">
+
+                    <span data-ar="تسوق المجموعة" data-en="SHOP THE DROP">
+                        تسوق المجموعة
+                    </span>
+
+                    ↗
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="feature-strip">
+
+            <div class="feature">
+                <b>01</b>
+                <span data-ar="قصّات أوفر سايز" data-en="OVERSIZED FITS">
+                    قصّات أوفر سايز
+                </span>
+            </div>
+
+            <div class="feature">
+                <b>02</b>
+                <span data-ar="راحة طول اليوم" data-en="ALL-DAY COMFORT">
+                    راحة طول اليوم
+                </span>
+            </div>
+
+            <div class="feature">
+                <b>03</b>
+                <span data-ar="ستايل بدون مجهود" data-en="EFFORTLESS STYLE">
+                    ستايل بدون مجهود
+                </span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <div class="footer-top">
+
+            <a class="brand footer-brand" href="#">
+
+                <span class="brand-mark">SSF</span>
+                <span class="brand-caption">SUPER STRENGTH FIT</span>
+
+            </a>
+
+            <p
+                data-ar="قوتك مش صدفة. دي طريقة حياة."
+                data-en="STRENGTH ISN'T AN ACCIDENT. IT'S A WAY OF LIFE.">
+
+                قوتك مش صدفة. دي طريقة حياة.
+
+            </p>
+
+            <a class="footer-cta" href="#" id="footerWhatsapp">
+                WHATSAPP US ↗
+            </a>
+            <a class="instagram-link"
+   href="https://www.instagram.com/super_strength_fit?cplk=aGhpa283b3ZjbWp2"
+   target="_blank"
+   rel="noopener noreferrer">
+    INSTAGRAM ↗
+</a>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>© 2026 SSF — SUPER STRENGTH FIT</span>
+
+            <span
+                data-ar="صُنع للحركة اليومية"
+                data-en="MADE FOR EVERYDAY MOVEMENT">
+
+                صُنع للحركة اليومية
+
+            </span>
+
+            <a href="#home">
+                BACK TO TOP ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
